@@ -1,0 +1,59 @@
+#A couple different conversions to change the value from the Google Sheet to fit a qbxml
+
+#Convert dates from MM/DD/YYYY to YYYY-MM-DD
+def convert_date(date_str):
+    # Split the input date string into components
+    month, day, year = date_str.split('/')
+    
+    # Format the components with leading zeros if necessary
+    month = month.zfill(2)
+    day = day.zfill(2)
+    
+    # Return the formatted date string
+    return f"{year}-{month}-{day}"
+
+# Example usage
+input_date = "1/1/2024"
+formatted_date = convert_date(input_date)
+print(f"Original date: {input_date}")
+print(f"Formatted date: {formatted_date}")
+
+#Convert Amounts and Tips to their value without the $
+#Also convert the "special case" tip amount of "$ -" to 0
+def strip_dollar(amount_str):
+    """
+    Strips the leading $ off of an amount.
+    
+    :param amount_str: String amount with leading $
+    :return: String amount without leading $
+    """
+    if amount_str.startswith('$'):
+        return amount_str[1:]
+    return amount_str
+
+def handle_special_case(amount_str):
+    """
+    Strips the leading $ off of an amount.
+    Replaces "$ -" with "0".
+    
+    :param amount_str: String amount with leading $ or "$ -"
+    :return: String amount without leading $, or "0" if the amount is "$ -"
+    """
+    if amount_str == "$ -":
+        return "0"
+    return strip_dollar(amount_str)
+
+# Example usage
+amount1 = "$123.45"
+amount2 = "$ -"
+
+# Strip dollar
+stripped_amount1 = strip_dollar(amount1)
+print(f"Original amount: {amount1}, Stripped amount: {stripped_amount1}")
+
+# Handle special case
+handled_amount1 = handle_special_case(amount1)
+handled_amount2 = handle_special_case(amount2)
+print(f"Original amount: {amount1}, Handled amount: {handled_amount1}")
+print(f"Original amount: {amount2}, Handled amount: {handled_amount2}")
+
