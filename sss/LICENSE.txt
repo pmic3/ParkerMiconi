@@ -1,4 +1,4 @@
-You may not distribute, sell, lease, sublicense, or otherwise transfer the Software 
-or any portion thereof, to any third party. The Software is licensed for personal 
+You may not use, distribute, sell, lease, sublicense, or otherwise transfer the Software 
+or any portion thereof, to any third party. The Software is licensed for personal/internal 
 use only, and commercial use is expressly prohibited. Any modification, reverse 
 engineering, or unauthorized use of the Software is strictly forbidden.
