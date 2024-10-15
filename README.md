@@ -3,4 +3,4 @@ sss - Salvatore Sorting Software (Python). See more details inside
 :::elitewebsite - Sample hard coded website for local auto body and collision company (HTML, CSS)
 :::NaturalNumberRoot - Java program that takes inputs the desired root r, and the NaturalNumber (Ohio State Computer Science and Engineering API component) n and finds the rth root of n using a binary search. https://cse22x1.engineering.osu.edu/common/doc/ (Java)
 :::qbint - QuickBooks Desktop Integration. See more details inside (Python)
-:::RSS Aggregator - Takes in a file of rss feeds. Formats them into a working html webpage of the rss information in a table.
+:::RSS Aggregator - Takes in a file of rss feeds. Formats them into a working html webpage of the rss information in a table. (Java)
