@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary meta tags-->
+  <title>Elite Auto Services</title>
+  <meta name="title" content="Autofix - Auto Maintenance & Repair Service">
+  <meta name="description" content="This is a vehicle repair html template made by codewithsadee">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- Google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Mulish&display=swap"
+    rel="stylesheet">
+
+  <!-- Material icon font -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,600,0,0" />
+
+  <!-- Custom css link -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Preload images -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/elitelogos/logo3.png" width="128" height="63" alt="autofix home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#heroX" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#aboutX" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#servicesX" class="navbar-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#workX" class="navbar-link">Get an estimate</a>
+          </li>
+
+          <li>
+            <a href="#footerX" class="navbar-link">Contact</a>
+          </li>
+
+          <li>
+            <a href="apply.html" class="navbar-link">Employee Application</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <span class="nav-toggle-icon icon-1"></span>
+        <span class="nav-toggle-icon icon-2"></span>
+        <span class="nav-toggle-icon icon-3"></span>
+      </button>
+
+    </div>
+  </header>
+
+
+  <main>
+    <article>
+
+      <!-- Hero -->
+      <section class="hero has-bg-image" id="heroX" aria-label="home" style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="section-subtitle :dark">Locally owned and operated since 2002</p>
+
+            <h1 class="h1 section-title">Elite Auto Services</h1>
+
+            <p class="section-text">
+              We have your back from start to finish from towing to auto body repair
+            </p>
+
+            <a href="tel:+17409640989" class="btn">
+              <span class="span">Call to schedule</span>
+
+              <span class="material-symbols-rounded">arrow_forward</span>
+            </a>
+
+          </div>
+
+          <figure class="hero-banner" style="--width: 1228; --height: 789;"> <!-- 1228, 789 -->
+            <img src="./assets/images/hero-banner.png" width="1228" height="789" alt="red motor vehicle"
+              class="move-anim">
+          </figure>
+
+        </div>
+      </section>
+
+      <!-- Service-->
+      <section class="section service has-bg-image" id="servicesX" aria-labelledby="service-label"
+        style="background-image: url('./assets/images/service-bg.jpg')">
+        <div class="container">
+
+          <p class="section-subtitle :light" id="service-label">Our services</p>
+
+          <h2 class="h2 section-title">Our talented team is there for you from start to 
+            finish, no matter how small or large the repair.
+          </h2>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/services-1.png" width="110" height="110" loading="lazy" alt="Engine Repair">
+                </figure>
+
+                <h3 class="h3 card-title">AAA Roadside Assistance</h3>
+
+                <p class="card-text">
+                  We are one of Ohio's largest AAA contractors. Our specially trained Tow & Light
+                  Service technicians are on the road 24/7.
+                </p>
+
+                <!-- Keep for now, could use later <a href="#" class="btn-link">Read more</a> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/services-2.png" width="110" height="110" loading="lazy" alt="Brake Repair">
+                </figure>
+
+                <h3 class="h3 card-title">Collision</h3>
+
+                <p class="card-text">
+                  No job is too large. Let Elite handle your collison needs from start to finish
+                  with a straightforward repair process.
+                </p>
+
+                <!-- Keep for now, could use later <a href="#" class="btn-link">Read more</a> -->
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/services-3.png" width="110" height="110" loading="lazy" alt="Tire Repair">
+                </figure>
+
+                <h3 class="h3 card-title">Towing</h3>
+
+                <p class="card-text">
+                  Elite Auto Services has won awards for being the nation's TOP emergency
+                  Roadside company 4 years in a row!
+                </p>
+
+                <!-- Keep for now, could use later <a href="#" class="btn-link">Read more</a> -->
+
+              </div>
+            </li>
+
+            <li> <!-- Hidden -->
+              <div class="service-card" style="display: none;">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/services-4.png" width="110" height="110" loading="lazy"
+                    alt="Battery Repair">
+                </figure>
+
+                <h3 class="h3 card-title">Battery Repair</h3>
+
+                <p class="card-text">
+                  Autem velaum iure reare aenderit rui in ea roluptate esse ruam moles
+                </p>
+
+                <a href="#" class="btn-link">Read more</a>
+
+              </div>
+            </li>
+
+            <li class="service-banner">
+              <img src="./assets/images/services-5.png" width="646" height="380" loading="lazy" alt="Red Car"
+                class="move-anim">
+            </li>
+
+            <li> <!-- Hidden -->
+              <div class="service-card" style="display: none;">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/services-6.png" width="110" height="110" loading="lazy"
+                    alt="Steering Repair">
+                </figure>
+
+                <h3 class="h3 card-title">Steering Repair</h3>
+
+                <p class="card-text">
+                  Autem velaum iure reare aenderit rui in ea roluptate esse ruam moles
+                </p>
+
+                <a href="#" class="btn-link">Read more</a>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <!-- Keep for now, could be used for some sort of functionality
+          <a href="#" class="btn">
+            <span class="span">View All Services</span>
+
+            <span class="material-symbols-rounded">arrow_forward</span>
+          </a> -->
+
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="section about has-before" id="aboutX" aria-labelledby="about-label">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="540" height="540" loading="lazy"
+              alt="vehicle repire equipments" class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle :dark">About Us</p>
+
+            <h2 class="h2 section-title">We’re Commited to Meet the quality</h2>
+
+            <p class="section-text">
+              Elite Auto Services has been in business since 2002. The owner graduated from Wyoming 
+              Technical Institute with a degree in Painting, Auto body Repair, and Custom Fabrication. 
+              When he returned to Pataskala he opened up an auto body repair shop. Word spread and 
+              the customer base grew quickly. In an over 12,000 sq foot facility with 4 Certified Auto 
+              Body Technicians, 2 Certified Painters, 2 Certified Mechanics, and an even larger customer 
+              base. That proves that with hard work, good priorities, and God on your side, all things are 
+              possible. Bring your car into Elite today and let us prove to you that we can make you a happy 
+              lifetime customer.
+            </p>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <p>
+                  <strong class="display-1 strong">8K+</strong> Happy Clients
+                </p>
+              </li>
+
+              <li class="about-item">
+                <p>
+                  <strong class="display-1 strong">6</strong> Locations
+                </p>
+              </li>
+
+              <li class="about-item">
+                <p>
+                  <strong class="display-1 strong">22+</strong> Years In Business
+                </p>
+              </li>
+
+              <li class="about-item">
+                <p>
+                  <strong class="display-1 strong">All</strong> Insurances Accepted
+                </p>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Work -->
+      <section class="section work" id="workX" aria-labelledby="work-label">
+        <div class="container">
+
+          <p class="section-subtitle :light" id="work-label">Our Process</p>
+
+          <h2 class="h2 section-title">Get an estimate for collision repair from 
+            our auto body shop</h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="work-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 406;">
+                  <img src="./assets/images/work-1.jpeg" width="350" height="406" loading="lazy" alt="Engine Repair"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">When you call us after your wreck we can send 
+                    out a tow truck and bring your vehicle directly to our shop.</p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="work-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 406;">
+                  <img src="./assets/images/work-2.jpeg" width="350" height="406" loading="lazy" alt="Car Tyre change"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">We call the insurance company and book the insurance 
+                    adjuster to come directly to our shop to handle your estimate!</p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="work-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 406;">
+                  <img src="./assets/images/work-3.jpeg" width="350" height="406" loading="lazy" alt="Battery Adjust"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle"> We then give you a copy of the estimate. You will 
+                    then schedule your repair and bring it back to be serviced.</p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- Locations -->
+      <section class="section locations">
+        <p class="section-subtitle :dark">Locations</p>
+        <div class="locontainer">
+          <div class="box">
+            <h2>Columbus, OH</h2> 
+            <p>71 Shackelford Rd</p>
+            <p>Pataskala, OH 43062</p>
+            <p>Phone: 740-964-0989</p>
+          </div>
+
+          <div class="box">
+            <h2>Cleveland, OH</h2> 
+            <p>6095 Pinecone Dr</p>
+            <p>Mentor, Ohio 44060</p>
+            <p>Phone: 216-704-4319</p>
+          </div>
+
+          <div class="box">
+            <h2>Cincinatti, OH</h2> 
+            <p>4193 Waynes Trace Rd</p>
+            <p>Hamilton, OH 45011</p>
+            <p>Phone: 513-857-5687</p>
+          </div>
+
+          <div class="box">
+            <h2>Pittsburgh, PA</h2> 
+            <p>554 State Route 68</p>
+            <p>New Brighton, PA 15066</p>
+            <p>Phone: 878-333-4461</p>
+          </div>
+
+          <div class="box">
+            <h2>Allentown, PA</h2> 
+            <p>1380 North West End Blvd</p>
+            <p>Quakertown, PA 18951</p>
+            <p>Phone: 484-895-5216</p>
+          </div>
+
+          <div class="box">
+            <h2>Orlando, FL</h2> 
+            <p>3956 Silver Star Rd</p>
+            <p>Orlando, FL 32808</p>
+            <p>Phone: 407-203-8898</p>
+          </div>
+        </div>
+        </div>
+
+      </section>
+
+    </article>
+  </main>
+
+
+  <!-- Footer -->
+  <footer class="footer" id="footerX">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/elitelogos/logo3.png" width="128" height="63" alt="autofix home">
+          </a>
+
+          <!-- Uneccessary right now but could be needed
+          <p class="footer-text">
+            Rerum necessitatibus saepe eveniet aut et voluptates repudiandae sint et molestiae non recusandae.
+          </p> -->
+
+          <ul class="social-list">
+            <li>
+              <a href="https://www.facebook.com/EliteAutoServicesLlc/" class="social-link">
+                <img src="./assets/images/facebook.svg" alt="facebook">
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h3">Shop Hours</p>
+          </li>
+
+          <li>
+            <p class="p">Monday – Friday</p>
+
+            <span class="span">8:30am – 5:30pm</span>
+          </li>
+
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h3">Contact Info</p>
+          </li>
+
+          <li>
+            <a href="tel:+01234567890" class="footer-link">
+              <span class="material-symbols-rounded">call</span>
+
+              <span class="span">740-964-0989</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="mailto:info@autofix.com" class="footer-link">
+              <span class="material-symbols-rounded">mail</span>
+
+              <span class="span">jon@eliteautoservices.net</span>
+            </a>
+          </li>
+
+          <li>
+            <address class="footer-link address">
+              <span class="material-symbols-rounded">location_on</span>
+
+              <span class="span">71 Shackelford Rd, Pataskala, Ohio</span>
+            </address>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <img src="./assets/images/footer-shape-3.png" width="637" height="173" loading="lazy" alt="Shape"
+        class="shape shape-3 move-anim">
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">Copyright Elite Auto Services 2021. Developed by Miconi Designs.</p>
+
+        <img src="./assets/images/footer-shape-2.png" width="778" height="335" loading="lazy" alt="Shape"
+          class="shape shape-2">
+
+        <img src="./assets/images/footer-shape-1.png" width="805" height="652" loading="lazy" alt="Red Car"
+          class="shape shape-1 move-anim">
+
+      </div>
+    </div>
+
+  </footer>
+
+
+  <!-- js link -->
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>

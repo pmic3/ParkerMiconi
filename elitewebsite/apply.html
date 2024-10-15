@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Application </title>
+
+    <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Mulish&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/formstyles.css">
+</head>
+
+<!--
+Neccessary Components:
+-First and last names
+-Email and confirm email
+-Address with city, state, province, region, zip
+-Phone number
+-Best time to call
+-Position
+-Available hours
+-More about
+-Resume upload
+-->
+<!-- 
+<a href="index.html">
+    <img src="assets/elitelogos/logo3.png" alt="">
+</a> -->
+
+<body>
+    <header>
+        
+    </header>
+    <section class="contact">
+        <h2>
+            Employee Application
+            <a href="index.html">
+                <img src="assets/elitelogos/logo3.png" alt="">
+            </a> <!-- Play with inline block to size this-->
+        </h2>
+        <form action="#">
+            
+            <!-- Personal Information-->
+            <p class="subtitle">Personal Information</p>
+            <div class="input-box">
+                <!-- Name -->
+                <div class="input-field field">
+                    <input type="text" id="name" placeholder="Full Name"
+                    class="item" autocomplete="off" required>
+                </div>
+                <!-- Phone -->
+                <div class="input-field field">
+                    <input type="text" id="phone" placeholder="Phone Number"
+                    class="item" autocomplete="off" required>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <!-- Email -->
+                <div class="input-field field long">
+                    <input type="text" id="email" placeholder="Email Address"
+                    class="item" autocomplete="off" required>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <!-- Street Address-->
+                <div class="input-field field long">
+                    <input type="text" id="address" placeholder="Street Address"
+                    class="item" autocomplete="off" required>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <!-- City -->
+                <div class="input-field field">
+                    <input type="text" id="city" placeholder="City"
+                    class="item" autocomplete="off" required>
+                </div>
+                <!-- State -->
+                <div class="input-field field">
+                    <input type="text" id="state" placeholder="State"
+                    class="item" autocomplete="off" required>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <!-- Zip/Postal Code -->
+                <div class="input-field field">
+                    <input type="text" id="zip" placeholder="Zip/Postal Code"
+                    class="item" autocomplete="off" required>
+                </div>
+                <!-- Country -->
+                <div class="input-field field">
+                    <input type="text" id="country" placeholder="Country"
+                    class="item" autocomplete="off">
+                </div>
+            </div>
+
+            <!-- Contact Time-->
+            <p class="subtitle">When is the best time to contact you?</p>
+            <div class="checkbox">
+                <input type="checkbox" id="morning" name="morning" class="">
+                <label for="morning">Morning</label> <br>
+                <input type="checkbox" id="ea" name="ea" class="">
+                <label for="ea">Early Afternoon</label> <br>
+                <input type="checkbox" id="la" name="la" class="">
+                <label for="la">Late Afternoon</label> <br>
+                <input type="checkbox" id="ee" name="ee" class="">
+                <label for="ee">Early Evening</label> 
+            </div>
+
+            <!-- Position -->
+            <p class="subtitle">Position</p>
+            <div class="radio-group">
+                <input type="radio" id="lst" name="posts" value="LST">
+                <label for="lst">Light Service Technician</label><br>
+                <input type="radio" id="disp" name="posts" value="DISP">
+                <label for="disp">Dispatcher</label><br>
+                <input type="radio" id="tto" name="posts" value="TTO">
+                <label for="tto">Tow Truck Operator</label><br>
+                <input type="radio" id="abt" name="posts" value="ABT">
+                <label for="abt">Auto Body Tehcnician</label>
+            </div>
+
+            <p class="subtitle">Hours Available to Work</p>
+            <div class="availability">
+                <label for="monday">Monday:</label>
+                <input type="text" id="monday" name="monday_availability"><br>
+                <label for="tuesday">Tuesday:</label>
+                <input type="text" id="tuesday" name="tuesday_availability"><br>
+                <label for="wednesday">Wednesday:</label>
+                <input type="text" id="wednesday" name="wednesday_availability"><br>
+                <label for="thursday">Thursday:</label>
+                <input type="text" id="thursday" name="thursday_availability"><br>
+                <label for="friday">Friday:</label>
+                <input type="text" id="friday" name="friday_availability"><br>
+                <label for="saturday">Saturday:</label>
+                <input type="text" id="saturday" name="saturday_availability"><br>
+                <label for="sunday">Sunday:</label>
+                <input type="text" id="sunday" name="sunday_availability"><br>
+            </div>
+
+            <p class="subtitle">Tell Us More About You</p>
+            <div class="moreinfo">
+                <textarea id="moreinfo" name="about" rows="20" cols="100"></textarea>
+            </div>
+              
+      
+            <!-- Keep for later
+            <div class="textarea-field field">
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message"
+                autocomplete="off" class="item">
+                </textarea>
+            </div> -->
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </section>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./assets/js/applyscript.js"></script>
+</body>
+</html>

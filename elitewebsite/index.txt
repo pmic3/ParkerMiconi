@@ -1,0 +1,23 @@
+<li>
+            <p class="p">Sunday – Thursday</p>
+
+            <span class="span">17.30 – 00.00</span>
+          </li>
+
+          <li>
+            <p class="p">Friday – Saturday</p>
+
+            <span class="span">12.00 – 14.45</span>
+</li>
+
+<a href="#" class="btn btn-primary">
+        <span class="span">Get a Quote</span>
+
+        <span class="material-symbols-rounded">arrow_forward</span>
+</a>
+
+<div class="container">
+            <a href="index.html" class="logo">
+                <img src="./assets/elitelogos/logo3.png" width="128" height="63" alt="autofix home">
+            </a>
+        </div>
